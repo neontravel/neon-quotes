@@ -88,7 +88,7 @@ body{padding:32px 0}.wrap{max-width:1120px;min-height:0;border-radius:24px;overf
 </div>
 <div class='lb' id='lb'><h5 id='lbt'></h5><button class='x' id='lbx' aria-label='Close'>×</button><button class='p' id='lbp' aria-label='Previous'>‹</button><img id='lbi' alt=''><button class='n' id='lbn' aria-label='Next'>›</button><div class='cnt' id='lbc'></div></div>
 <script>
-var G={"0": {"name": "Deluxe Jr Suite", "imgs": ["img/deluxe-jr-suite-1.jpg", "img/deluxe-jr-suite-2.jpg", "img/deluxe-jr-suite-3.jpg"]}, "1": {"name": "Silver Jr Suite", "imgs": ["img/silver-jr-suite-1.jpg", "img/silver-jr-suite-2.jpg", "img/silver-jr-suite-3.jpg"]}, "2": {"name": "Golden Jr Suite", "imgs": ["img/golden-jr-suite-1.jpg", "img/golden-jr-suite-2.jpg", "img/golden-jr-suite-3.jpg"]}},cur=0,k=0,EXP=new Date('2026-11-09T10:35:09.641293-05:00');
+var G={"0": {"name": "Deluxe Jr Suite", "imgs": ["img/deluxe-jr-suite-1.jpg", "img/deluxe-jr-suite-2.jpg", "img/deluxe-jr-suite-3.jpg"]}, "1": {"name": "Silver Jr Suite", "imgs": ["img/silver-jr-suite-1.jpg", "img/silver-jr-suite-2.jpg", "img/silver-jr-suite-3.jpg"]}, "2": {"name": "Golden Jr Suite", "imgs": ["img/golden-jr-suite-1.jpg", "img/golden-jr-suite-2.jpg", "img/golden-jr-suite-3.jpg"]}},cur=0,k=0,EXP=new Date('2026-11-09T10:35:49.184369-05:00');
 var lb=document.getElementById('lb'),lbi=document.getElementById('lbi');
 function show(){var g=G[cur];lbi.src=g.imgs[k];document.getElementById('lbt').textContent=g.name;document.getElementById('lbc').textContent=(k+1)+' / '+g.imgs.length}
 function openLb(i,j){cur=i;k=j||0;show();lb.classList.add('open')}
