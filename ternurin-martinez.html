@@ -16,6 +16,7 @@ h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#4A4A58;fo
 .card.pick{border:2px solid #FF6B1A}.tag{position:absolute;top:-11px;left:16px;z-index:3;background:#FF6B1A;color:#fff;font-size:11px;font-weight:900;letter-spacing:.1em;padding:4px 10px;border-radius:999px}
 .ph{position:relative;height:210px;border-radius:16px 16px 0 0;overflow:hidden;cursor:zoom-in;background:#ddd}
 .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .45s}.ph img.on{opacity:1}
+.ar{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:38px;height:38px;border:0;border-radius:50%;background:rgba(18,8,56,.55);color:#fff;font-size:26px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0 0 3px;transition:background .2s}.ar:hover{background:rgba(255,107,26,.95)}.ar.pv{left:10px}.ar.nx{right:10px}
 .dots{position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:6px}.dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.55)}.dots i.on{background:#fff}
 .zoom{position:absolute;top:10px;right:10px;background:rgba(18,8,56,.72);color:#fff;font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px}
 .in{padding:16px 16px 18px}h3{font-size:20px;font-weight:900;color:#120838}
@@ -53,7 +54,7 @@ body{padding:32px 0}.wrap{max-width:1120px;min-height:0;border-radius:24px;overf
 <div class='body'>
 <div class='hotel'>Valentin Imperial Riviera Maya</div><div class='dates'>July 18 – July 24, 2027 · 6 nights · 2 adults</div>
 <div class='cards'><article class='card'>
-  <div class='ph' data-i='0' tabindex='0' role='button' aria-label='View photos of Deluxe Jr Suite'><img src='img/deluxe-jr-suite-1.jpg' alt='Deluxe Jr Suite' loading='lazy' class='on'><img src='img/deluxe-jr-suite-2.jpg' alt='Deluxe Jr Suite' loading='lazy' class=''><img src='img/deluxe-jr-suite-3.jpg' alt='Deluxe Jr Suite' loading='lazy' class=''><div class='dots'><i class='on'></i><i class=''></i><i class=''></i></div><div class='zoom'>⤢ 3 photos</div></div>
+  <div class='ph' data-i='0' tabindex='0' role='button' aria-label='View photos of Deluxe Jr Suite'><img src='img/deluxe-jr-suite-1.jpg' alt='Deluxe Jr Suite' loading='lazy' class='on'><img src='img/deluxe-jr-suite-2.jpg' alt='Deluxe Jr Suite' loading='lazy' class=''><img src='img/deluxe-jr-suite-3.jpg' alt='Deluxe Jr Suite' loading='lazy' class=''><button class='ar pv' aria-label='Previous photo'>‹</button><button class='ar nx' aria-label='Next photo'>›</button><div class='dots'><i class='on'></i><i class=''></i><i class=''></i></div><div class='zoom'>⤢ 3 photos</div></div>
   <div class='in'>
   <h3>Deluxe Jr Suite</h3>
   <div class='upb'>Free upgrade · guaranteed<b>Silver Jr Suite</b></div>
@@ -64,7 +65,7 @@ body{padding:32px 0}.wrap{max-width:1120px;min-height:0;border-radius:24px;overf
   <a class='btn mob' href='sms:+529841680041?body=Hi%21%20I%27d%20like%20to%20book%20the%20Deluxe%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%242%2C874%20USD.'>Book this room</a>
   <a class='btn desk' href='mailto:jose@neontravelagency.com?subject=Booking%20request%20-%20Deluxe%20Jr%20Suite&body=Hi%21%20I%27d%20like%20to%20book%20the%20Deluxe%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%242%2C874%20USD.'>Book this room</a>
   </div></article><article class='card pick'><div class="tag">MOST POPULAR</div>
-  <div class='ph' data-i='1' tabindex='0' role='button' aria-label='View photos of Silver Jr Suite'><img src='img/silver-jr-suite-1.jpg' alt='Silver Jr Suite' loading='lazy' class='on'><img src='img/silver-jr-suite-2.jpg' alt='Silver Jr Suite' loading='lazy' class=''><img src='img/silver-jr-suite-3.jpg' alt='Silver Jr Suite' loading='lazy' class=''><div class='dots'><i class='on'></i><i class=''></i><i class=''></i></div><div class='zoom'>⤢ 3 photos</div></div>
+  <div class='ph' data-i='1' tabindex='0' role='button' aria-label='View photos of Silver Jr Suite'><img src='img/silver-jr-suite-1.jpg' alt='Silver Jr Suite' loading='lazy' class='on'><img src='img/silver-jr-suite-2.jpg' alt='Silver Jr Suite' loading='lazy' class=''><img src='img/silver-jr-suite-3.jpg' alt='Silver Jr Suite' loading='lazy' class=''><button class='ar pv' aria-label='Previous photo'>‹</button><button class='ar nx' aria-label='Next photo'>›</button><div class='dots'><i class='on'></i><i class=''></i><i class=''></i></div><div class='zoom'>⤢ 3 photos</div></div>
   <div class='in'>
   <h3>Silver Jr Suite</h3>
   <div class='upb'>Free upgrade · guaranteed<b>Golden Jr Suite</b></div>
@@ -75,7 +76,7 @@ body{padding:32px 0}.wrap{max-width:1120px;min-height:0;border-radius:24px;overf
   <a class='btn mob' href='sms:+529841680041?body=Hi%21%20I%27d%20like%20to%20book%20the%20Silver%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%243%2C123%20USD.'>Book this room</a>
   <a class='btn desk' href='mailto:jose@neontravelagency.com?subject=Booking%20request%20-%20Silver%20Jr%20Suite&body=Hi%21%20I%27d%20like%20to%20book%20the%20Silver%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%243%2C123%20USD.'>Book this room</a>
   </div></article><article class='card'>
-  <div class='ph' data-i='2' tabindex='0' role='button' aria-label='View photos of Golden Jr Suite'><img src='img/golden-jr-suite-1.jpg' alt='Golden Jr Suite' loading='lazy' class='on'><img src='img/golden-jr-suite-2.jpg' alt='Golden Jr Suite' loading='lazy' class=''><img src='img/golden-jr-suite-3.jpg' alt='Golden Jr Suite' loading='lazy' class=''><div class='dots'><i class='on'></i><i class=''></i><i class=''></i></div><div class='zoom'>⤢ 3 photos</div></div>
+  <div class='ph' data-i='2' tabindex='0' role='button' aria-label='View photos of Golden Jr Suite'><img src='img/golden-jr-suite-1.jpg' alt='Golden Jr Suite' loading='lazy' class='on'><img src='img/golden-jr-suite-2.jpg' alt='Golden Jr Suite' loading='lazy' class=''><img src='img/golden-jr-suite-3.jpg' alt='Golden Jr Suite' loading='lazy' class=''><button class='ar pv' aria-label='Previous photo'>‹</button><button class='ar nx' aria-label='Next photo'>›</button><div class='dots'><i class='on'></i><i class=''></i><i class=''></i></div><div class='zoom'>⤢ 3 photos</div></div>
   <div class='in'>
   <h3>Golden Jr Suite</h3>
   <div class='upb'>Free upgrade · guaranteed<b>Golden Superior Jr Suite</b></div>
@@ -103,12 +104,14 @@ function show(){var g=G[cur];lbi.src=g.imgs[k];document.getElementById('lbt').te
 function openLb(i,j){cur=i;k=j||0;show();lb.classList.add('open')}
 function step(d){var n=G[cur].imgs.length;k=(k+d+n)%n;show()}
 document.querySelectorAll('.ph').forEach(function(ph){
- var imgs=ph.querySelectorAll('img'),dots=ph.querySelectorAll('i'),idx=0,t=null;
- function go(x){imgs[idx].classList.remove('on');dots[idx].classList.remove('on');idx=x%imgs.length;imgs[idx].classList.add('on');dots[idx].classList.add('on')}
- ph.addEventListener('mouseenter',function(){go(1);t=setInterval(function(){go(idx+1)},1100)});
- ph.addEventListener('mouseleave',function(){clearInterval(t);go(0)});
- ph.addEventListener('click',function(){clearInterval(t);openLb(+ph.dataset.i,idx)});
- ph.addEventListener('keydown',function(e){if(e.key==='Enter')openLb(+ph.dataset.i,0)});
+ var imgs=ph.querySelectorAll('img'),dots=ph.querySelectorAll('i'),idx=0,sx=0,moved=false;
+ function go(x){imgs[idx].classList.remove('on');dots[idx].classList.remove('on');idx=(x+imgs.length)%imgs.length;imgs[idx].classList.add('on');dots[idx].classList.add('on')}
+ ph.querySelector('.pv').addEventListener('click',function(e){e.stopPropagation();go(idx-1)});
+ ph.querySelector('.nx').addEventListener('click',function(e){e.stopPropagation();go(idx+1)});
+ ph.addEventListener('touchstart',function(e){sx=e.touches[0].clientX;moved=false},{passive:true});
+ ph.addEventListener('touchend',function(e){var d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>35){moved=true;go(d<0?idx+1:idx-1)}});
+ ph.addEventListener('click',function(){if(moved){moved=false;return}openLb(+ph.dataset.i,idx)});
+ ph.addEventListener('keydown',function(e){if(e.key==='Enter')openLb(+ph.dataset.i,idx);if(e.key==='ArrowRight')go(idx+1);if(e.key==='ArrowLeft')go(idx-1)});
 });
 document.getElementById('lbx').onclick=function(){lb.classList.remove('open')};
 document.getElementById('lbp').onclick=function(){step(-1)};document.getElementById('lbn').onclick=function(){step(1)};
