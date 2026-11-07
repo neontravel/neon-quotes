@@ -27,6 +27,9 @@ ul{list-style:none}li{padding:7px 0 7px 28px;position:relative;font-size:15px}li
 .perks{margin-top:22px;background:#FFF3EA;border-radius:14px;padding:16px}.perks h4{font-size:15px;font-weight:900;color:#120838;margin-bottom:6px}.perks li::before{content:'★';color:#FF6B1A}
 .cta{margin-top:26px;text-align:center;font-size:15px}.cta .val{display:inline-block;background:#FF6B1A;color:#fff;font-weight:800;font-size:13px;padding:10px 18px;border-radius:999px;margin-top:10px}.cta small{display:block;margin-top:12px;color:#6b6b78}
 .foot{background:#120838;color:#c9c7d8;font-size:12px;padding:18px 20px;line-height:1.6}.foot b,.foot a{color:#fff;text-decoration:none}
+.desk,.cta small.desk,.btn.desk{display:none}
+@media(hover:hover) and (pointer:fine){.mob,.cta small.mob,.btn.mob{display:none!important}.btn.desk,.cta small.desk{display:block!important}}
+.cta .btn.big{max-width:420px;margin:0 auto;font-size:18px;padding:17px;background:#FF6B1A}
 .lb{position:fixed;inset:0;background:rgba(10,5,30,.94);z-index:50;display:none;flex-direction:column;align-items:center;justify-content:center}.lb.open{display:flex}
 .lb h5{color:#fff;font-size:16px;font-weight:800;position:absolute;top:18px;left:20px}
 .lb img{max-width:92vw;max-height:78vh;border-radius:12px;object-fit:contain}
@@ -56,7 +59,8 @@ body{padding:32px 0}.wrap{max-width:1120px;min-height:0;border-radius:24px;overf
   <div class='tot'><small>Your total · 2 adults · 6 nights</small><b>$2,874</b><span>USD</span></div>
   <div class='save'>You save $454</div>
   <div class='pp'>$240 per person / night</div>
-  <a class='btn' href='sms:+529841680041&body=Hi!%20I'd%20like%20to%20book%20the%20Deluxe%20Jr%20Suite%20for%20Ternurin%20Martinez,%20Jul%2018%20–%20Jul%2024,%202027,%202%20adults,%20total%20$2,874%20USD.'>Book this room</a>
+  <a class='btn mob' href='sms:+529841680041&body=Hi%21%20I%27d%20like%20to%20book%20the%20Deluxe%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%242%2C874%20USD.'>Book this room</a>
+  <a class='btn desk' href='mailto:jose@neontravelagency.com?subject=Booking%20request%20-%20Deluxe%20Jr%20Suite&body=Hi%21%20I%27d%20like%20to%20book%20the%20Deluxe%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%242%2C874%20USD.'>Book this room</a>
   </div></article><article class='card pick'><div class="tag">MOST POPULAR</div>
   <div class='ph' data-i='1' tabindex='0' role='button' aria-label='View photos of Silver Jr Suite'><img src='img/silver-jr-suite-1.jpg' alt='Silver Jr Suite' loading='lazy' class='on'><img src='img/silver-jr-suite-2.jpg' alt='Silver Jr Suite' loading='lazy' class=''><img src='img/silver-jr-suite-3.jpg' alt='Silver Jr Suite' loading='lazy' class=''><div class='dots'><i class='on'></i><i class=''></i><i class=''></i></div><div class='zoom'>⤢ 3 photos</div></div>
   <div class='in'>
@@ -66,7 +70,8 @@ body{padding:32px 0}.wrap{max-width:1120px;min-height:0;border-radius:24px;overf
   <div class='tot'><small>Your total · 2 adults · 6 nights</small><b>$3,123</b><span>USD</span></div>
   <div class='save'>You save $493</div>
   <div class='pp'>$260 per person / night</div>
-  <a class='btn' href='sms:+529841680041&body=Hi!%20I'd%20like%20to%20book%20the%20Silver%20Jr%20Suite%20for%20Ternurin%20Martinez,%20Jul%2018%20–%20Jul%2024,%202027,%202%20adults,%20total%20$3,123%20USD.'>Book this room</a>
+  <a class='btn mob' href='sms:+529841680041&body=Hi%21%20I%27d%20like%20to%20book%20the%20Silver%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%243%2C123%20USD.'>Book this room</a>
+  <a class='btn desk' href='mailto:jose@neontravelagency.com?subject=Booking%20request%20-%20Silver%20Jr%20Suite&body=Hi%21%20I%27d%20like%20to%20book%20the%20Silver%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%243%2C123%20USD.'>Book this room</a>
   </div></article><article class='card'>
   <div class='ph' data-i='2' tabindex='0' role='button' aria-label='View photos of Golden Jr Suite'><img src='img/golden-jr-suite-1.jpg' alt='Golden Jr Suite' loading='lazy' class='on'><img src='img/golden-jr-suite-2.jpg' alt='Golden Jr Suite' loading='lazy' class=''><img src='img/golden-jr-suite-3.jpg' alt='Golden Jr Suite' loading='lazy' class=''><div class='dots'><i class='on'></i><i class=''></i><i class=''></i></div><div class='zoom'>⤢ 3 photos</div></div>
   <div class='in'>
@@ -76,13 +81,15 @@ body{padding:32px 0}.wrap{max-width:1120px;min-height:0;border-radius:24px;overf
   <div class='tot'><small>Your total · 2 adults · 6 nights</small><b>$3,330</b><span>USD</span></div>
   <div class='save'>You save $526</div>
   <div class='pp'>$278 per person / night</div>
-  <a class='btn' href='sms:+529841680041&body=Hi!%20I'd%20like%20to%20book%20the%20Golden%20Jr%20Suite%20for%20Ternurin%20Martinez,%20Jul%2018%20–%20Jul%2024,%202027,%202%20adults,%20total%20$3,330%20USD.'>Book this room</a>
+  <a class='btn mob' href='sms:+529841680041&body=Hi%21%20I%27d%20like%20to%20book%20the%20Golden%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%243%2C330%20USD.'>Book this room</a>
+  <a class='btn desk' href='mailto:jose@neontravelagency.com?subject=Booking%20request%20-%20Golden%20Jr%20Suite&body=Hi%21%20I%27d%20like%20to%20book%20the%20Golden%20Jr%20Suite%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults%2C%20total%20%243%2C330%20USD.'>Book this room</a>
   </div></article></div>
 <div class='info'>
 <ul><li>No payment until 48 hours before arrival</li><li>Free cancellation up to 48 hours before arrival</li><li>Personal concierge via text message before &amp; during your stay</li><li>All inclusive — meals, premium drinks, taxes &amp; tips</li></ul>
 <div class='perks'><h4>Book 5 nights or more and receive</h4><ul><li>Free round-trip Cancun airport transfers</li><li>$300 USD resort credit</li><li>Free tumbler per person</li></ul></div>
 </div>
-<div class='cta'><b>Ready to book?</b> Tap “Book this room” and send us the message by SMS or iMessage.<br><span class='val'>Black Friday rates available November 19 – November 30, 2026</span><small>Prefer email? <a href='mailto:jose@neontravelagency.com'>jose@neontravelagency.com</a></small></div>
+<div class='cta'><a class='btn big mob' href='sms:+529841680041&body=Hi%21%20I%27d%20like%20to%20book%20at%20Valentin%20Imperial%20Riviera%20Maya%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults.'>Ready to book? Click here</a><a class='btn big desk' href='mailto:jose@neontravelagency.com?subject=Booking%20request%20-%20Ternurin%20Martinez&body=Hi%21%20I%27d%20like%20to%20book%20at%20Valentin%20Imperial%20Riviera%20Maya%20for%20Ternurin%20Martinez%2C%20Jul%2018%20%E2%80%93%20Jul%2024%2C%202027%2C%202%20adults.'>Ready to book? Click here</a><span class='val'>Black Friday rates available November 19 – November 30, 2026</span><small class='mob'>Prefer email? <a href='mailto:jose@neontravelagency.com'>jose@neontravelagency.com</a></small><small class='desk'>Prefer to text? Send us a message at <a href='sms:+529841680041'>+52 984 168 0041</a></small></div>
+</div>
 </div>
 <div class='foot'><b>Neon Travel</b> · Your all-inclusive travel experts<br><a href='mailto:jose@neontravelagency.com'>jose@neontravelagency.com</a> · <a href='tel:+529841680041'>+52 984 168 0041</a> · <a href='https://facebook.com/neontravelagency'>facebook.com/neontravelagency</a></div>
 </div>
